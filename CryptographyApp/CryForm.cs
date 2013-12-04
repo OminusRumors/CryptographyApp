@@ -46,13 +46,5 @@ namespace CryptographyApp
                     btext += Convert.ToString(ch, 2);
             }
         }
-
-        private char Key(string originalKey, out char Key1, out char Key2)
-        {
-            if (originalKey.ElementAt<char>(7) != originalKey.ElementAt<char>(15))
-                MessageBox.Show("Invalid key.");
-            else
-
-        }
     }
 }
